@@ -18,7 +18,7 @@ export default function About() {
 
             <p>
               On this blog, you'll find weekly articles and tutorials on topics
-              such as web development, software engineering, and programming
+              such as web development, Model Questions and Past Questions of CSIT, and programming
               languages. Kiran is always learning and exploring new
               technologies, so be sure to check back often for new content!
             </p>
