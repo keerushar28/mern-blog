@@ -43,6 +43,20 @@ export default function FooterCom() {
               >
                 Instagram
               </Footer.Link>
+              <Footer.Link
+              href='https://twitter.com/kiran_gtm28'
+              target='_blank'
+              rel='noopener noreferrer'
+              >
+                Twitter
+              </Footer.Link>
+              <Footer.Link
+              href='https://github.com/keerushar28'
+              target='_blank'
+              rel='noopener noreferrer'
+              >
+                Github
+              </Footer.Link>
             </Footer.LinkGroup>
             </div>
             <div>
@@ -67,7 +81,7 @@ export default function FooterCom() {
             <Footer.Icon href='https://www.facebook.com/kiran.gautam.77312477' icon={BsFacebook}/>
             <Footer.Icon href='https://www.instagram.com/_kiran_gtm/' icon={BsInstagram}/>
             <Footer.Icon href='https://github.com/keerushar28' icon={BsGithub}/>
-            <Footer.Icon href='#' icon={BsTwitterX}/>
+            <Footer.Icon href='https://twitter.com/kiran_gtm28' icon={BsTwitterX}/>
 
           </div>
 
