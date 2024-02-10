@@ -24,7 +24,7 @@ export default function CreatePost() {
 </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">
-            <FileInput type='file' accept='allfiles/*' />
+            <FileInput type='file' accept='image/*' />
             <Button type='button' gradientDuoTone='purpleToPink' size='sm' outline>
                 Upload File
             </Button>
