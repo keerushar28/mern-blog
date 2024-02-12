@@ -19,19 +19,20 @@ export default function App() {
     <BrowserRouter>
     <Header />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route element={<PrivateRoute/>} >
-      <Route path="/dashboard" element={<Dashboard />} />
-         </Route>
-         <Route element={<OnlyAdminPrivateRoute/>} >
-      <Route path="/create-post" element={<CreatePost />} />
-         </Route>
-      
-      <Route path="/sign-in" element={<SignIn />} />
-      <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/projects" element={<Projects />} />
+    <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/sign-in' element={<SignIn />} />
+        <Route path='/sign-up' element={<SignUp />} />
+       
+        <Route element={<PrivateRoute />}>
+          <Route path='/dashboard' element={<Dashboard />} />
+        </Route>
+        <Route element={<OnlyAdminPrivateRoute />}>
+          <Route path='/create-post' element={<CreatePost />} />
+        </Route>
 
+        <Route path='/projects' element={<Projects />} />
+       
 
       
 
