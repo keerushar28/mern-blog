@@ -71,8 +71,12 @@ export default function SignIn() {
             Blog
           </Link>
           <p className='text-sm mt-5 font-bold'>
-           Login with your Email and Password
-          </p>
+                Welcome back! Log in with your email and password for a 
+                personalized experience, 
+                or continue with Google for a 
+                quick and seamless sign-in. Let's make your 
+                experience even better!
+        </p>
         </div>
 
         {/* Right side */}
