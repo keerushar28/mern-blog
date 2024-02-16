@@ -129,10 +129,15 @@ export default function UpdatePost() {
             }
             value={formData.category}
           >
-            <option value='uncategorized'>Select a category</option>
-            <option value='javascript'>JavaScript</option>
-            <option value='reactjs'>React.js</option>
-            <option value='nextjs'>Next.js</option>
+            <option value="uncategorized">Select a category</option>
+            <option value="first">First Sem</option>
+            <option value="second">Second Sem</option>
+            <option value="third">Third Sem</option>
+            <option value="fourth">Fourth Sem</option>
+            <option value="fifth">Fifth Sem</option>
+            <option value="sixth">Sixth Sem</option>
+            <option value="seventh">Seventh Sem</option>
+            <option value="eight">Eighth Sem</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
