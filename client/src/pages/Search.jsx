@@ -139,6 +139,7 @@ export default function Search() {
             <option value="sixth">Sixth Sem</option>
             <option value="seventh">Seventh Sem</option>
             <option value="eight">Eighth Sem</option>
+            <option value="Trends">Recent Trends</option>
               
             </Select>
           </div>
