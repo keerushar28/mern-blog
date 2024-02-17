@@ -106,7 +106,7 @@ export default function CreatePost() {
             <option value="sixth">Sixth Sem</option>
             <option value="seventh">Seventh Sem</option>
             <option value="eight">Eighth Sem</option>
-            <option value="ninth">Recent Trends</option>
+            <option value="Trends">Recent Trends</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>
