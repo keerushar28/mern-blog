@@ -78,10 +78,14 @@ export default function FooterCom() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href='/about' by="Kiran's Blog" year={new Date().getFullYear()}/>
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='https://www.facebook.com/kiran.gautam.77312477' icon={BsFacebook}/>
-            <Footer.Icon href='https://www.instagram.com/_kiran_gtm/' icon={BsInstagram}/>
-            <Footer.Icon href='https://github.com/keerushar28' icon={BsGithub}/>
-            <Footer.Icon href='https://twitter.com/kiran_gtm28' icon={BsTwitterX}/>
+            <Footer.Icon href='https://www.facebook.com/kiran.gautam.77312477' target='_blank'
+              rel='noopener noreferrer' icon={BsFacebook}/>
+            <Footer.Icon href='https://www.instagram.com/_kiran_gtm/' target='_blank'
+              rel='noopener noreferrer' icon={BsInstagram}/>
+            <Footer.Icon href='https://github.com/keerushar28' target='_blank'
+              rel='noopener noreferrer'  icon={BsGithub}/>
+            <Footer.Icon href='https://twitter.com/kiran_gtm28' target='_blank'
+              rel='noopener noreferrer' icon={BsTwitterX}/>
 
           </div>
 
